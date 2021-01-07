@@ -56,7 +56,7 @@ cd /opt/work_home/flink-ml-tensorflow/python
 pip install .
 cd /opt/work_home/temp/test
 deactivate
-touch /opt/work_home/temp/test/tfenv/lib/python3.5/site-packages/google/__init__.py
+touch /opt/work_home/temp/test/tfenv/lib/python3.7/site-packages/google/__init__.py
 
 cd /opt/work_home/temp/test/
 zip -ryq tfenv.zip tfenv
